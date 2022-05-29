@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netcampproject">
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SENSORS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetcampProject">
+        <activity android:name=".Sms_App"></activity>
+        <activity android:name=".Result" />
+        <activity android:name=".QuizThird" />
+        <activity android:name=".QuizSecond" />
+        <activity android:name=".Quizfirst" />
+        <activity android:name=".Bluetooth_app" />
+        <activity android:name=".Wifi_App" />
+        <activity android:name=".Calci" />
+        <activity android:name=".Phone_services" />
+        <activity android:name=".Call" />
+        <activity android:name=".Text_to_Speek" />
+        <activity android:name=".Video_player" />
+        <activity android:name=".Viberator" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".Media_player" />
+        <activity android:name=".Button_tourch" />
+        <activity android:name=".Torch_Acelerometer" />
+        <activity android:name=".Togle_Torch" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".Torch_Light_sensor" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Google_login" />
+        <activity android:name=".Otp_confirm" />
+        <activity android:name=".Otp" />
+        <activity android:name=".real_time_database_login" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

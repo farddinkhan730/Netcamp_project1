@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "733630097629",
+    "project_id": "mymedicineapp-6f16c",
+    "storage_bucket": "mymedicineapp-6f16c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733630097629:android:db5cdd8b2126bafa061334",
+        "android_client_info": {
+          "package_name": "com.example.netcampproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733630097629-eeinbdg92j56m48slhdd9g2f55ge4a0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.netcampproject",
+            "certificate_hash": "a89b4cc83a507bb85236b7e2b5d08c10da805d28"
+          }
+        },
+        {
+          "client_id": "733630097629-omq8da2tm7fb5hb6bji3urmfo89hkr23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTxFhZ5iWVOhbV1eb879mYwUboMz9sNFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733630097629-omq8da2tm7fb5hb6bji3urmfo89hkr23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

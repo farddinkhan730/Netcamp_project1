@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gratiant"
+    tools:context=".Viberator">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#F01E3BDB"
+        app:title="Vibrator App"
+        app:titleTextColor="#F8F1F1" />
+
+    <Button
+        android:id="@+id/vibmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="306dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:backgroundTint="#ffff"
+        android:text="Vibrate"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

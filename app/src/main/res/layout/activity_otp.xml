@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/blue_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="OTP LOGIN "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccpc"
+        android:layout_width="124dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="237dp"
+        android:background="@drawable/blue_border_rounded_cornwe"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="239dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/otpbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="OTP"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#F01E3BDB" />
+
+</RelativeLayout>

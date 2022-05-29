@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gratiant"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/phone_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:text="Phone Servics"
+        app:backgroundTint="#808080" />
+
+    <Button
+        android:id="@+id/Tourchser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:text="Torch Services"
+        app:backgroundTint="#808080 " />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:text="More Apps"
+        app:backgroundTint="#808080 " />
+
+    <Button
+        android:id="@+id/media_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:text="Media Player"
+        app:backgroundTint="#808080 " />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Button_tourch">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/blue_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:foregroundGravity="bottom"
+            android:padding="10dp"
+            android:text="Torch On Off App"
+            android:textColor="@color/white"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/Torchonbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:backgroundTint="#F01E3BDB"
+        android:text="ON"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/torchoffbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:backgroundTint="#F01E3BDB"
+        android:gravity="center"
+        android:text="OFF"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

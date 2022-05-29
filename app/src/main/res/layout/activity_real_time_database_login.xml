@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".real_time_database_login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/blue_bg">
+
+        <TextView
+
+            android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:text="Real Time Data Base Create Account"
+        android:textColor="#F6F6F6"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:orientation="vertical">
+
+                <EditText
+
+                    android:id="@+id/realname2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+                <EditText
+                    android:id="@+id/realemail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+                <EditText
+                    android:id="@+id/realpass2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+                <EditText
+                    android:id="@+id/realphone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Phone"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+            <Button
+                android:id="@+id/realregis2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:text="Register"
+                app:backgroundTint="#F01E3BDB"/>
+            </LinearLayout>
+        </RelativeLayout>
+            </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

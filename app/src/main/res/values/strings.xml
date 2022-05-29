@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Netcamp project</string>
+    <string name="duaration" />
+    <string name="frequency" />
+    <string name="month" />
+    <string name="daily" />
+</resources>
